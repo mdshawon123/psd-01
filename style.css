@@ -1,0 +1,584 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+}
+.header{
+    width: 100%;
+    background: url(./images/photo.png);
+    background-size: cover;
+    height: 643px;
+}
+.container{
+    margin-top: 22px;
+}
+.header .bg-light{
+    background-color: transparent !important;
+}
+.header .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+.header .navbar-light .navbar-nav .nav-link:hover, .header .navbar-light .navbar-nav .nav-link:focus{
+    color: #008ed6;
+    background: url(./images/Prostokąt\ 2.png) center bottom no-repeat;
+    background-size: auto;
+} 
+.banner{
+     width: 100%;
+    margin-top: 80px;
+}
+.inner-banner h6{
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #0f6a97;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.inner-banner h1{
+    font-size: 37px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 23px;
+}
+.inner-banner p{
+    width: 399px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #999999;
+    margin-bottom: 60px;
+}
+.inner-banner .btn-primary{
+    padding: 13px 25px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #008ed6;
+    border: 1px solid #008ed6 ;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.inner-banner .btn-primary:hover, .inner-banner .btn-primary:focus{
+    color: #008ed6;
+    background-color: transparent;
+    border: 1px solid #008ed6;
+}
+.inner-banner .btn-secondary{
+    padding: 12px 23px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background: none;
+    border-radius: 3px;
+    margin-left: 17px;
+    transition: 0.5s;
+}
+.inner-banner .btn-secondary:hover, .inner-banner .btn-secondary:focus{
+    color: #fff;
+    background-color: #008ed6;
+    border: 1px solid #008ed6;
+}
+.banner-phone img {
+    margin-top: -34px;
+    margin-left: 18px;
+}
+
+
+
+
+.feature{
+    width: 100%;
+    padding: 60px 0px;
+}
+.feature .title{
+    text-align: center;
+    margin-bottom: 45px;
+}
+.feature .title h6{
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #0c9ee7;
+    letter-spacing: 1px;
+}
+.feature .title h1{
+     font-size: 37px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 15px;
+}
+.inner-feature{
+    width: 100%;
+    padding: 30px 25px;
+    text-align: center;
+}
+.inner-feature .icon-box{
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    margin: 0px auto 25px;
+    border: 1px solid #e2e0e0;
+    border-radius: 100%;
+}
+.inner-feature h4{
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 12px;
+}
+.inner-feature p{
+    width: 225px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9b9999;
+    margin: 0px auto;
+}
+
+
+
+.about-long{
+    width: 100%;
+    padding: 60px 0px;
+    border-top: 1px solid #eee;
+}
+.about-long .title{
+    margin-bottom: 16px;
+    margin-top: 51px;
+}
+.about-long .title h6{
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #0c9ee7;
+    letter-spacing: 1px;
+}
+.about-long .title h1{
+    font-weight: 400;
+    margin-bottom: 11px;
+}
+.about-long p{
+    width: 443px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9b9999;
+    margin: 0px auto;
+    margin-left: 0px;
+    margin-bottom: 33px;
+}
+.about-long ul{
+    padding: 0px;
+}
+.about-long ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.about-long ul li img{
+    width: 15px;
+    height: 19px;
+}
+.about-long ul li span{
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 13px;
+}
+
+
+
+
+
+.about-short{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #f2f2f2;
+}
+.about-short .title{
+    margin-top: 95px;
+    margin-bottom: 16px;
+}
+.about-short .title h6{
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #0c9ee7;
+    letter-spacing: 1px;
+}
+.about-short .title h1{
+    font-weight: 400;
+    margin-bottom: 11px;
+}
+.about-short p{
+    width: 455px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9b9999;
+    margin-left: 0px;
+}
+
+
+
+@media (min-width:320px) and (max-width:480px) {
+
+    /* css start */
+    .header{
+        padding: 30px 15px 0px;
+        height: 920px;
+    }
+    .header .navbar-light .navbar-nav .nav-link:hover, .header .navbar-light .navbar-nav .nav-link:focus{
+        width: 48px;
+    } 
+    .navbar-light .navbar-toggler {
+        margin-top: -60px;
+        background-color: #dadada;
+    }
+    .header .navbar-light .navbar-nav .nav-link{
+        margin-left: 0px;
+        margin-top: 5px;
+        font-size: 17px;
+    }
+    .navbar-light .navbar-brand img{
+        margin-top: -70px;
+    } 
+    .inner-banner h1{
+        font-size: 33px;
+        margin-bottom: 30px;
+    } 
+     .banner{     
+        margin-top: 28px;
+    }
+    .inner-banner p{
+        width: 100%;
+        font-size: 16px;
+        margin-bottom: 67px;
+    }
+    .inner-banner .btn-primary{
+        font-size: 13px;
+        padding: 13px 19px;
+    }
+    .inner-banner .btn-secondary{
+        font-size: 13px;
+        padding: 13px 19px;
+    }
+    .banner-phone img{
+        width: 75%;
+        margin-top: 80px;
+        margin-left: 38px;
+    }
+    .feature{
+        padding: 50px 0px;
+    }
+   .inner-feature .icon-box{
+        width: 95px;
+        height: 95px;
+        line-height: 95px;
+   }
+   .inner-feature h4{
+        font-size: 27px;
+   }
+   .inner-feature p{
+        width: 245px;
+        font-size: 18px;
+   }
+   .about-long{
+        padding: 50px 13px;
+   }
+   .about-long .phone2{
+        width: 75%;
+        margin-left: 45px;
+   }
+   .about-long .title{
+        margin-top: 70px;
+   }
+   .about-long .title h1{
+        font-size: 29px;
+        margin-bottom: 13px;
+   }
+   .about-long p{
+        width: 100%;
+        font-size: 17px;
+        margin-bottom: 37px;
+   }
+   .about-long ul li{
+        margin-bottom: 12px;
+   }
+   .about-long ul li img{
+        width: 14px;
+        height: 18px;
+   }
+   .about-long ul li span{
+        font-size: 18px;
+   }
+   .about-short{
+        padding: 50px 15px;
+   }
+   .about-short .title{
+        margin-top: 11px;
+   }
+   .about-short .title h1{
+        font-size: 29px;
+        margin-bottom: 13px;
+   }
+   .about-short p{
+        width: 100%;
+        font-size: 17px;
+   }
+   .about-short .phone3{
+        width: 100%;
+        margin-top: 35px;
+   }
+    /* css end */
+
+}
+
+
+@media (min-width:481px) and (max-width:767px) {
+
+      /* css start */
+    .header{
+        padding: 30px 15px 0px;
+        height: 1041px;
+    }
+    .header .navbar-light .navbar-nav .nav-link:hover, .header .navbar-light .navbar-nav .nav-link:focus{
+        width: 48px;
+    } 
+    .navbar-light .navbar-toggler {
+        margin-top: -60px;
+        background-color: #dadada;
+    }
+    .header .navbar-light .navbar-nav .nav-link{
+        margin-left: 0px;
+        margin-top: 5px;
+        font-size: 17px;
+    }
+      .navbar-light .navbar-brand img{
+        margin-top: -70px;
+    } 
+    .inner-banner h1{
+        font-size: 44px;
+        margin-bottom: 30px;
+    } 
+      .banner{     
+        margin-top: 28px;
+    }
+    .inner-banner p{
+        width: 100%;
+        font-size: 17px;
+        margin-bottom: 75px;
+    }
+     .inner-banner .btn-primary{
+        font-size: 14px;
+        padding: 16px 22px;
+    }
+    .inner-banner .btn-secondary{
+        font-size: 14px;
+        padding: 16px 22px;
+        margin-left: 20px;
+    }
+       .banner-phone img{
+        width: 70%;
+        margin-top: 100px;
+        margin-left: 72px;
+    }
+    .feature{
+        padding: 50px 0px;
+    }
+    .inner-feature .icon-box{
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+   }
+   .feature .title h6{
+        font-size: 15px;
+   }
+   .inner-feature h4{
+        font-size: 30px;
+   }
+    .inner-feature p{
+        width: 265px;
+        font-size: 19px;
+   }
+   .about-long{
+        padding: 50px 13px;
+   }
+     .about-long .phone2{
+        width: 70%;
+        margin-left: 76px;
+   }
+   .about-long .title{
+        margin-top: 70px;
+   }
+   .about-long .title h6{
+        font-size: 15px;
+   }
+     .about-long .title h1{
+        font-size: 40px;
+        margin-bottom: 13px;
+   }
+   .about-long p{
+        width: 100%;
+        font-size: 19px;
+        margin-bottom: 37px;
+   }
+     .about-long ul li{
+        margin-bottom: 12px;
+   }
+   .about-long ul li img{
+        width: 16px;
+        height: 21px;
+   }
+    .about-long ul li span{
+        font-size: 20px;
+   }
+   .about-short{
+        padding: 50px 15px;
+   }
+     .about-short .title{
+        margin-top: 11px;
+   }
+   .about-short .title h6{
+        font-size: 15px;
+   }
+   .about-short .title h1{
+        font-size: 40px;
+        margin-bottom: 13px;
+   }
+     .about-short p{
+        width: 100%;
+        font-size: 19px;
+   }
+   .about-short .phone3{
+        width: 100%;
+        margin-top: 40px;
+   }
+
+    /* css end */
+
+}
+
+
+@media (min-width:768px) and (max-width:1024px) {
+
+      /* css start */
+    .header{
+        padding: 30px 15px 0px;
+        height: 567px;
+    }
+    .navbar-light .navbar-toggler {
+        margin-top: -60px;
+        background-color: #dadada;
+    }
+    .header .navbar-light .navbar-nav .nav-link{
+        margin-left: 0px;
+        margin-top: -42px;
+        font-size: 14px;
+    }
+      .navbar-light .navbar-brand img{
+        margin-top: -50px;
+    } 
+    .inner-banner h1{
+        font-size: 35px;
+        margin-bottom: 25px;
+    } 
+      .banner{     
+        margin-top: 28px;
+    }
+    .inner-banner p{
+        width: 76%;
+        font-size: 16px;
+        margin-bottom: 65px;
+    }
+     .inner-banner .btn-primary{
+        font-size: 13px;
+        padding: 15px 20px;
+    }
+    .inner-banner .btn-secondary{
+        font-size: 13px;
+        padding: 15px 20px;
+    }
+       .banner-phone img{
+        width: 100%;
+        margin-top: -20px;
+        margin-left: -17px;
+    }
+    .feature{
+        padding: 50px 0px;
+    }
+    .feature .title{
+        margin-bottom: 60px;
+    }
+    .inner-feature{
+        padding: 0px;
+    }
+    .inner-feature .icon-box{
+        width: 87px;
+        height: 87px;
+        line-height: 87px;
+   }
+   .inner-feature h4{
+        font-size: 24px;
+   }
+    .inner-feature p{
+        width: 215px;
+        font-size: 15px;
+   }
+   .about-long{
+        padding: 50px 13px;
+   }
+     .about-long .phone2{
+        width: 100%;
+   }
+   .about-long .title{
+        margin-top: 45px;
+   }
+     .about-long .title h1{
+        font-size: 34px;
+        margin-bottom: 13px;
+   }
+   .about-long p{
+        width: 100%;
+        font-size: 16px;
+        margin-bottom: 33px;
+   }
+     .about-long ul li{
+        margin-bottom: 12px;
+   }
+   .about-long ul li img{
+        width: 14px;
+        height: 19px;
+   }
+    .about-long ul li span{
+        font-size: 18px;
+   }
+   .about-short{
+        padding: 50px 15px;
+   }
+     .about-short .title{
+        margin-top: 11px;
+   }
+   .about-short .title h1{
+        font-size: 34px;
+        margin-bottom: 13px;
+   }
+   .about-short p{
+        width: 100%;
+        font-size: 16px;
+   }
+   .about-short .phone3{
+        width: 100%;
+        margin-top: 0px;
+   }
+    /* css end */
+
+}
+
+
+
